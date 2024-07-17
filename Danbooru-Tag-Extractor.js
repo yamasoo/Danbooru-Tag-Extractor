@@ -54,7 +54,7 @@
             }
 
             // Replace underscores with spaces and spaces with commas in tags
-            tags = tags.replace(/_/g, ' ').replace(/ /g, ',');
+            tags = tags.replace(/ /g, ', ');
 
             // Combine tags and rating in the specified format
             data.push(`${tags}; ${rating}`);
